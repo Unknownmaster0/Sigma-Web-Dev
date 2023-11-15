@@ -1,0 +1,59 @@
+<!-- In this code we are going to make the nice form for the user, asking about his/her name,city,gender,age,pincode,email, mobno. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form for your Admission!</h1>
+    <p id="information">Impotant to fill this form for the admission by the student.</p>
+    <form action="">
+        <div>
+            <label for="Name">Name : </label>
+            <input type="text" name="Username" id="Name" placeholder="Enter your name...">
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" id="age" placeholder="enter your age...">
+        </div>
+        <div>
+            <label for="">Gender : </label>
+            <span>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </span>
+            <span>
+                <input type="radio" id="Male" name="gender">
+                <label for="Male">Male</label>
+            </span>
+            <span>
+                <input type="radio" id="Other" name="gender">
+                <label for="Other">Other</label>
+            </span>
+        </div>
+        <div>
+            <label for="pincode">PIN</label>
+            <input type="number" id="pincode" placeholder="enter pincode...">
+        </div>
+        <div>
+            <label for="phonenumber">Mob. NO. : </label>
+            <input type="number" name="phonenumber" id="phonenumber" placeholder="enter your mobile number...">
+        </div>
+        <div>
+            <label for="city">City : </label>
+            <input type="text" name="city" id="city" placeholder="enter your city..">
+        </div>
+        <div>
+            <label for="email">E-mail : </label>
+            <input type="email" name="mail" id="email" placeholder="your mail-id...">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

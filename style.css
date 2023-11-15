@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(148, 96, 148);
+}
+
+/* id in the HTML is used in the styling in CSS.
+    '#' sign is used before id.
+
+    '.' sign is used before class.
+        */
+#information{
+    color:whitesmoke;
+}
