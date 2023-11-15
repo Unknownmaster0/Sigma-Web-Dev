@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio&Video</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="heading">Video on the linux tutorial.</h1>
+    <video src="sagar.mp4" width="500" height="300" controls loop ></video>
+    <br>
+    <!-- Preload attribute has some tags -> auto, metadata, none -->
+    <!-- none -> isme start se mute and video ko forward nhi kr sakte. And total duration of the video bhi nhi dikhata hai.
+
+    metadata -> isme video ko forward kr sakte, duration show krta hai and mute button bhi on off kr sakte hai start se.
+
+    auto -> same as metadata.
+    -->
+    <div>
+        <audio src="ravan.mp3" controls loop 
+        preload="metadata"></audio>
+    </div>
+</body>
+</html>
