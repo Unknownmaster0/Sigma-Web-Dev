@@ -1,0 +1,7 @@
+hey user, this is Sagar Singh (your author).
+
+You might get stuck while running the "src" file in the img tag as I done in the svg_tag_in_html.html file.
+
+So, you need to add simple one line to the src tag in the img.src file. which I have already written there.
+
+xmlns="http://www.w3.org/2000/svg" thats it.
