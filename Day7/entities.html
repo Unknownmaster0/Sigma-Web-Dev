@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Entities</title>
+</head>
+<style>
+    canvas {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <p>There is pre tag in which whatever you write is print as it is.</p>
+    <pre>
+        This is written in the pre tag.
+
+
+        As in html not more than 1 spaces is considered but in the pre                   tag 
+
+        it gets considered.
+    </pre>
+
+    <!-- canvas tag -> used to give space for the drawing and rendring graphics. -->
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+
+    <!-- quotation tag -> used to write the quote and also add the url to it. -->
+    <blockquote cite="https://www.google.com">
+        Quotation text here.
+    </blockquote>
+
+
+    <!-- this bdo tag will reverse the text from the right to left and left to right -->
+    <bdo dir="rtl">
+        What a beautiful day!
+    </bdo>
+    <!-- maine pahle upper wala text likha hai, but wo baad me print hoo rha hai, because wo right to left direction me print hoga. and the below content left to right. -->
+    <!-- as bdo tag is inline tag then the left side place is taken by the below bdo tag. -->
+    <bdo dir="ltr"> hey this is sagar singh.</bdo>
+
+    <pre>
+        <code>
+            #include&lt;iostream&gt;
+            using namespace std;
+            int main(){
+                cout&lt;&lt;"hello world"&lt;&lt;endl;
+                return 0;
+            }
+        </code>
+    </pre>
+
+
+</body>
+
+</html>
