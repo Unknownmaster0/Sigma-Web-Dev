@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+div#nav {
+  background-color: black;
+  color: white;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+a {
+  margin: 0px 200px 0px 5px;
+  text-decoration: none;
+}
+
+#first {
+  color: rgb(182, 122, 11);
+  /* margin: 0px 200px 0px 5px; */
+  font-size: 25px;
+}
+
+#search-Area {
+  background-color: white;
+  color: grey;
+  width: 130px;
+}
+
+#search-Button {
+  background-color: orange;
+}
+
+#content {
+  height: 683px;
+  border: 2px solid black;
+}
+
+.content-box {
+  display: inline-block;
+  color: white;
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
+}
+
+#first-div {
+  background-color: rgba(255, 89, 0, 0.5);
+}
+
+#second-div {
+  background-color: rgba(55, 89, 200, 0.9);
+}
+
+#third-div {
+  background-color: rgba(25, 189, 189, 0.3);
+}
+
+footer {
+  color: white;
+  background-color: black;
+}

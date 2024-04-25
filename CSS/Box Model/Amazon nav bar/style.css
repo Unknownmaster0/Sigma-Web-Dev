@@ -1,0 +1,45 @@
+* {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+div#nav {
+  border: 5px solid white;
+  color: white;
+  height: 60px;
+}
+
+/* as margin is common in all the element, of anchor tag, then we can also use it with tag selector css */
+a {
+  margin: 0px 200px 0px 5px;
+  text-decoration: none;   /* to remove the underline from the link of anchor tag.*/
+}
+
+#first {
+  color: rgb(182, 122, 11);
+  /* margin: 0px 200px 0px 5px; */
+  font-size: 25px;
+}
+
+/*
+#second {
+  margin: 0px 200px 0px 5px;
+}
+
+#third {
+  margin: 0px 200px 0px 5px;
+}
+
+#fourth {
+  margin: 0px 260px 0px 5px;
+} */
+
+#search-Area {
+  background-color: white;
+  color: grey;
+  width: 130px;
+}
+
+#search-Button {
+  background-color: orange;
+}

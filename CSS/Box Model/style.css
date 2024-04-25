@@ -1,0 +1,140 @@
+#circleDiv {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+
+  border: 50px dashed black;
+
+  /* border-width: 50px; */
+  /* border-color: black; */
+  /* border-style: dashed; */
+  border-radius: 50%;
+  /* margin-top: 10px; */
+  /* margin-right: 10px; */
+  /* margin-bottom: 10px; */
+  /* margin-left: 10px; */
+  /* padding-top: 29px; */
+  /* padding-right: 29px; */
+  /* padding-bottom: 29px; */
+  padding-left: 29px;
+  text-align: center;
+  margin: 10px;
+  padding: 29px;
+}
+
+#first {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  border: 10px solid rosybrown;
+  padding: 10px 8px 10px 8px;
+  margin: 20px;
+  display: inline-block; /* Why need to make it inline-block? because for inline element you cna't set the margin and padding. Thus, you need to make them inline-block.
+  You can also make them 'block', but then not all four rectangle will be in same line.*/
+  text-align: center;
+}
+
+#second {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  border: 10px solid rosybrown;
+  padding: 10px 8px 10px 8px;
+  margin: 20px;
+  display: inline-block;
+  text-align: right;
+}
+
+#third {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  border: 10px solid rosybrown;
+  padding: 10px 8px 10px 8px;
+  margin: 20px;
+  display: inline-block;
+}
+
+#fourth {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  border: 10px solid rosybrown;
+  padding: 10px 8px 10px 8px;
+  margin: 20px;
+  display: inline-block;
+  text-align: end;
+}
+
+div#outer {
+  width: 100px;
+  height: 300px;
+  margin-left: 500px;
+  margin-bottom: 30px;
+  background-color: papayawhip;
+  border: 5px solid black;
+}
+
+div#inner1 {
+  height: 50px;
+  width: 50px;
+  border: 5px solid red;
+  border-radius: 50%;
+  background-color: red;
+  margin: 20px 25px 40px 18px;
+}
+
+div#inner2 {
+  height: 50px;
+  width: 50px;
+  border: 5px solid green;
+  background-color: green;
+  border-radius: 50%;
+  margin: 10px 25px 40px 18px;
+}
+
+div#inner3 {
+  height: 50px;
+  width: 50px;
+  border: 5px solid yellow;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: 10px 25px 40px 18px;
+}
+
+div#Traffic {
+  font-weight: bolder;
+  font-size: large;
+  padding-left: 8px;
+  font-family: system-ui;
+  padding-bottom: 5px;
+  color: blue;
+  border: 5px solid brown;
+  width: 150px;
+  height: 20px;
+  margin-left: 470px;
+  margin-bottom: 20px;
+  margin-right: 500px;
+}
+
+div.last {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  /* display: inline; */
+  display: inline-block; /* Make this uncomment to see difference in below two line while inspecting.*/
+  margin-bottom: 50px;
+  margin-top: 50px; /* This will not able to set for block element who make inline.To make it visible then need to use display:inline-block; method. 
+  */
+  padding: 10px;
+}
+
+#third-div {
+  /* visibility: hidden; */
+  display: none;
+}
+
+#second-div {
+  background-color: rgba(255, 0, 0, 0.8); /* here the last parameter is the optivity, kitna color dikhega.*/
+}

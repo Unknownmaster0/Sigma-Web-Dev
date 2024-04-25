@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 5px solid black;
+}
+
+#box1{
+    background-color: lightcoral;
+    position: static; /* then we can't able to set any property like top, right, left and bottom position.*/
+    top: 200px; /* This will not work in static state.*/
+}
+
+#box2{
+    background-color: maroon;
+    position: relative; /* Position is relative to itself.*/
+    top: 30px;
+    left: 50px;
+    /* right: 80px; */
+    /* bottom:90px; */
+    text-align: right;
+}
+
+#box3{
+    background-color: palevioletred;
+    /* position: absolute; As we make the position absolute then next box4 is hidden overlapping with the box3. */
+    position: sticky;
+    top: 200px;
+    left: 100px;
+}
+
+#box4{
+    background-color: burlywood;
+    position: fixed;
+    /* bottom: 0; */
+    top: 0; /*box4 fixed to top.*/
+    left:0;
+    /* width: 100%; */
+    width:100vw;
+}
+
+#box5{
+    background-color: beige;
+    position: sticky;
+    top: 0; /*sticky position means -> when you get that box, after that if you scroll down, then box will stick to top with space of 0 with top. */
+}

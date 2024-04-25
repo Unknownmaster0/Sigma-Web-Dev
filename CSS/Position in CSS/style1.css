@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+body{
+    background-image: url(./The\ Dream\ -\ Copy.jpg);
+    background-size: cover;
+}
+
+#box1{
+    background-color: aquamarine;
+    position: relative;
+    /* top: 30px; */
+    /* left: 50px; */
+    /* z-index: 10; */
+    z-index: -1; /*Negative z-idx means down ja rha hai layer. */
+}
+
+#box2{
+    background-color: beige;
+    position: relative;
+    z-index: 1;
+    background-image: url("./The\ Dream\ -\ Copy.jpg");
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; This will stop to repeat the same image in the box, but show the background color of the element. */
+}

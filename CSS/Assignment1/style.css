@@ -1,0 +1,32 @@
+* {
+  font-family: "Times New Roman";
+  background-color: rgb(218, 179, 179);
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#outer {
+  /* padding-left: 20px; */
+  /* first -> for top, second -> for right, third-> for bottom, fourth-> for left. */
+  padding: 5px 10px 10px 20px;
+  font-size: 25px;
+  border: 2px solid rebeccapurple;
+  margin: 10px 50px 100px 0;
+}
+
+#inner {
+  line-height: 40px;
+  font-size: 20px;
+  margin: 0 auto;
+  border: 3px solid black;
+}
+
+#check-margin {
+  margin: 40px 0px 0px 50px;
+  line-height: 50px;
+  padding-left: 50px;
+  border: 10px solid white;
+}

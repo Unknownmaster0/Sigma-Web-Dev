@@ -1,0 +1,23 @@
+/* .box{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+} */
+#box1 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  font-size: 10px;
+  height: 50vh; /* viewport/browser ke heigth ka 50% set hoo jayega box1 ka height.*/
+  width: 100vw; /*100% of the browser ka width set hoo jayega box1 ka width. */
+}
+
+#box2 {
+  height: 50px;
+  width: 30%;
+  background-color: blue;
+  margin-left: 10%;
+  /* font-size: 2em; */
+  /* width: 3em;  */ /* again set the width a/c to it's(box2) font size */
+  font-size: 2rem; /*Twice of the font-size of the body element.*/
+}

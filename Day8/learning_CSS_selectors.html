@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <!-- internal CSS -->
+    <style>
+        /* element selectors-> it select all the element in one time.
+        file me jitna bhi div rhega ye sabpe apply hoo jayeaga. */
+        /* div{
+            background-color: blue;
+            color: white;
+        } */
+
+        /* class selector -> it select only those element whose class is matching to this name. */
+        .red{
+            background-color: red;
+        }
+
+        /* id selector -> it select only those element whose id is matching to the given id here. */
+        #green{
+            background-color: green;
+            color: white;
+        }
+
+        /* universal selector -> this selector is marked to all the tag of the html file. */
+        *{
+            margin: inherit;
+            padding: 10%;
+        }
+
+        /* child selector -> if the tag is present inside the other tag then we use the child selector. */
+    </style>
+</head>
+<body>
+    <div>This is the div tag.</div>
+    <span class="red">This is red colored span tag.</span>
+    <p id="green">This is green color paragraph tag.</p>
+</body>
+</html>
