@@ -1,0 +1,12 @@
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid rebeccapurple;
+    background-image: url("./party_image.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    /* z-index: 10; */
+}
