@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-bndle{
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.btn{
+    margin-right: 10px;
+}
+
+.box{
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
