@@ -1,0 +1,60 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+    transition-delay: 1s;*/
+    transition: all 2s ease-in 1s;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate3d(1,2,3,60deg); */
+    /* transform: rotate(0.5turn); */ /* Khud ka 1/2 turn maar lega.*/
+    /* transform: translateY(20px); */
+    /*
+    rotate: x 90deg;  element will rotate along x-axis in 3-d dimension. 
+                     Consider your copy to be div and then understand it. */
+
+    /* Y-axis ke across ulta hoo jayega, means 180 rotate krke dekh copy ko along y-axis. */
+    /* rotate: y 180deg;  */
+
+    /* rotate: z 0.5turn; */
+    /* rotate: z 90deg; */
+    animation-name: boxchange;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+/* defining animation keyframe -> this will not apply the animataion, but this will say what animation should be shown. */
+@keyframes boxchange{
+    /* from{height: 100px; width: 100px; background-color: aquamarine;} */
+    /* to{height: 200px; width: 200px; background-color: bisque;} */
+    /* from {transform: translate(0px);} */
+    from{}  /* we may also leave this as blank */
+    to {transform: translate(100px);}
+}
+
+div:hover{
+    /* font-size: xxx-large; */
+    /* height: 200px; */
+    /* width: 300px; */
+    /* background-color: brown; */
+    /* transform: rotate(90deg); */
+    /* scale(1, 2) -> first data along x-axis ke liye hai, and second data along y-axis ke liye hai. */
+    /* transform: scale(1, 2);  */
+    transform: scale(2);
+    /* transform: translateY(100px); */
+    /* transform: skew(30deg); */
+}
+
+/* div:active{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+} */

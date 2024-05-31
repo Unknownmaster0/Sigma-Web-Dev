@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 233, 250);
+}
+
+main{
+    min-height: 80vh;
+    display: grid;
+    place-items: centre;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(95, 155, 244);
+    font-size: x-large;
+}
+
+.job-role{
+    color: rgb(95, 155, 244);
+}
+
+.img-container{
+    height: 150px;
+    width: 150px;
+}
+
+.person-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+#review{
+    border: 2px solid black;
+    padding: 10px;
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.prev-btn{
+    margin-right: 15px;
+}
+
+#random{
+    padding: 5px;
+    border-radius: 2px;
+    color: rgb(95, 155, 244);
+    border-color: rgb(95, 155, 244);
+}
